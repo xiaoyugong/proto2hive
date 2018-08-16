@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.handge.proto;
+option java_multiple_files = true;
+
+message Packet {
+    string ipPorto2Name = 1; //传输层协议
+    string srcIp = 2; //源IP
+    uint32 srcPort = 3; //源端口
+    string dstIp = 4; //目的IP
+    uint32 dstPort = 5; //目的端口
+}

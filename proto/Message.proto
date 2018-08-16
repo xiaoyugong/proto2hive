@@ -1,0 +1,7 @@
+syntax = "proto3";
+package com.handge.proto;
+
+message Message {
+    string messageName = 1;
+    bytes payload = 2;
+}
